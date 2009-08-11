@@ -1,0 +1,25 @@
+
+Notice: Undefined variable: w in /home/ljp/workspace/jpgraph-src/jpgraph_mgraph.php on line 220
+
+Call Stack:
+    0.0007     121984   1. {main}() /home/ljp/workspace/jpgraph-src/Examples/comb90dategraphex03.php:0
+    0.4520    8337528   2. MGraph->Stroke() /home/ljp/workspace/jpgraph-src/Examples/comb90dategraphex03.php:145
+    0.5235   11536276   3. MGraph->StrokeTitle() /home/ljp/workspace/jpgraph-src/jpgraph_mgraph.php:328
+
+
+Notice: Undefined variable: image in /home/ljp/workspace/jpgraph-src/jpgraph_mgraph.php on line 232
+
+Call Stack:
+    0.0007     121984   1. {main}() /home/ljp/workspace/jpgraph-src/Examples/comb90dategraphex03.php:0
+    0.4520    8337528   2. MGraph->Stroke() /home/ljp/workspace/jpgraph-src/Examples/comb90dategraphex03.php:145
+    0.5235   11536276   3. MGraph->StrokeTitle() /home/ljp/workspace/jpgraph-src/jpgraph_mgraph.php:328
+
+
+Fatal error: Call to a member function PushColor() on a non-object in /home/ljp/workspace/jpgraph-src/jpgraph_text.inc.php on line 236
+
+Call Stack:
+    0.0007     121984   1. {main}() /home/ljp/workspace/jpgraph-src/Examples/comb90dategraphex03.php:0
+    0.4520    8337528   2. MGraph->Stroke() /home/ljp/workspace/jpgraph-src/Examples/comb90dategraphex03.php:145
+    0.5235   11536276   3. MGraph->StrokeTitle() /home/ljp/workspace/jpgraph-src/jpgraph_mgraph.php:328
+    0.5237   11536444   4. Text->Stroke() /home/ljp/workspace/jpgraph-src/jpgraph_mgraph.php:232
+
